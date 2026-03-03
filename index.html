@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Scheduler App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #6200EE;
+            border-bottom: 2px solid #6200EE;
+            padding-bottom: 10px;
+        }
+        .app-icon {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .app-icon svg {
+            width: 100px;
+            height: 100px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #6200EE;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #3700B3;
+        }
+        .instructions {
+            background-color: #f8f9fa;
+            border-left: 4px solid #6200EE;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .feature {
+            background-color: #f3e5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .version-info {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 30px;
+            text-align: center;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Vacation Scheduler</h1>
+
+    <div class="app-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6200EE">
+            <path d="M12 2C8.13 2 5 5.13 5 9v3c0 2.22 1.21 4.23 3 5.29V19c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-1.71c1.79-1.06 3-3.07 3-5.29V9c0-3.87-3.13-7-7-7z"/>
+        </svg>
+    </div>
+
+    <p>Plan and track your vacations with ease! Vacation Scheduler helps you organize trips, manage excursions, set reminders, and share your travel plans.</p>
+
+    <div style="text-align: center;">
+        <a href="apk/vacation-scheduler-v1.0.apk" class="download-btn" download>📱 Download APK (v1.0)</a>
+    </div>
+
+    <div class="instructions">
+        <h3>📋 Installation Instructions:</h3>
+        <ol>
+            <li>Download the APK file above</li>
+            <li>On your Android device, go to <strong>Settings → Security</strong></li>
+            <li>Enable <strong>"Install from Unknown Sources"</strong> or <strong>"Install unknown apps"</strong></li>
+            <li>Open the downloaded APK file</li>
+            <li>Tap "Install" when prompted</li>
+            <li>Once installed, open the app and set up your PIN</li>
+        </ol>
+        <p><em>Note: Requires Android 8.0 (Oreo) or higher</em></p>
+    </div>
+
+    <h3>✨ Features:</h3>
+    <div class="features">
+        <div class="feature">✓ Vacation Planning</div>
+        <div class="feature">✓ Excursion Management</div>
+        <div class="feature">✓ Date Validation</div>
+        <div class="feature">✓ PIN Security</div>
+        <div class="feature">✓ Report Generation</div>
+        <div class="feature">✓ Search Functionality</div>
+        <div class="feature">✓ Share Vacation Details</div>
+        <div class="feature">✓ Date Alerts</div>
+    </div>
+
+    <div class="version-info">
+        <p><strong>Current Version:</strong> 1.0.0</p>
+        <p><strong>Last Updated:</strong> March 2026</p>
+        <p><strong>Android Version:</strong> 8.0+</p>
+    </div>
+
+    <footer>
+        <p>© 2026 Vacation Scheduler | Capstone Project</p>
+    </footer>
+</div>
+</body>
+</html>
