@@ -1,0 +1,8 @@
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# OS files
+.DS_Store
+Thumbs.db
